@@ -1,0 +1,20 @@
+{
+  "main.css": "/static/css/main.dc36b760.chunk.css",
+  "main.js": "/static/js/main.fb3f14dc.chunk.js",
+  "main.js.map": "/static/js/main.fb3f14dc.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
+  "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
+  "static/js/2.295b10b5.chunk.js": "/static/js/2.295b10b5.chunk.js",
+  "static/js/2.295b10b5.chunk.js.map": "/static/js/2.295b10b5.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.226ac8d1226d6a2e6e5431f6ae276c86.js": "/precache-manifest.226ac8d1226d6a2e6e5431f6ae276c86.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.dc36b760.chunk.css.map": "/static/css/main.dc36b760.chunk.css.map",
+  "static/media/airpods-landing.jpeg": "/static/media/airpods-landing.62dd923e.jpeg",
+  "static/media/airpods-store.png": "/static/media/airpods-store.07b2decc.png",
+  "static/media/home.png": "/static/media/home.f7ecdf72.png",
+  "static/media/marketplace.png": "/static/media/marketplace.fa3db73c.png",
+  "static/media/shopping-cart.png": "/static/media/shopping-cart.f11739ff.png",
+  "static/media/upscale-logo-alt.jpg": "/static/media/upscale-logo-alt.5bc73b84.jpg",
+  "static/media/upscale-logo.jpg": "/static/media/upscale-logo.def9a3bf.jpg"
+}

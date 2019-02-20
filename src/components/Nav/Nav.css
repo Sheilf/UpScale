@@ -1,0 +1,33 @@
+
+nav .nav-icon{
+    max-width: 25px;
+    max-height: 25px;
+    padding:0;
+    margin-left: 0 !important;
+    
+
+}
+nav .icon-container{
+    font-size: 12px;
+}
+.nav-link img{
+    width: 16px;
+    height: 16px;
+}
+#nav-component{
+    margin-left: 0;
+    padding: 0;
+    background-color: #101113 !important;
+    max-height: 55px;
+}
+
+
+.nav-link{
+    font-size: 12px !important;
+    margin-left: 10px !important;
+    border: 0px solid transparent !important;
+}
+
+#navbarColor02{
+    background-color: #101113 !important
+}

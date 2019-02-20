@@ -1,0 +1,48 @@
+
+/* 
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  body main img{
+    width: 85%;
+    height: 450px;
+
+  }
+  
+}
+
+
+@media screen and (min-width: 800px) {
+  body main img{
+    width: 35%;
+    height: 450px;
+  }
+}
+
+
+body{
+  background-color: #5B5B5B;
+}
+
+body main{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  
+} */
+/*
+mobile: w 85%
+desktop: w: 55%;
+*/
+
+
+
+main{
+  min-height: 90vh;
+  width: 100%;
+}
