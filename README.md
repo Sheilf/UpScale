@@ -121,7 +121,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
       </Contact>
   
     
-    </Index>
   
 
     <utility>
