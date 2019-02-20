@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) & Firebase (www.firebase.google.com)
 
 ## Available Scripts
 
@@ -27,6 +27,13 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+
+### `firebase deploy`
+
+Deploys to your firebase project to project.firebaseapp.com & your configured domain name with Firebase Hosting.
+
+See more: https://firebase.google.com/docs/hosting/deploying
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
@@ -35,34 +42,104 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 
 Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### `Components'
 
-## Learn More
+  <b>Routes</b>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  <ul>
+    <li>index</li>
+    <li>App</li>
+    <li>Nav</li>
+    <li>Store</li>
+    <li>Cart</li>
+    <li>MarketPlace</li>
+    <li>Sell</li>
+    <li>Construction</li>
+  </ul>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  <b>Subcomponents </b>
+  <ul>
+    <li>Home</li>
+    <li>Banner</li>
+    <li>GoogleSignIn</li>
+    <li>Product</li>
+    <li>GenericComponent</li>
+  </ul>    
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+  ### 'render App'
 
-### Analyzing the Bundle Size
+  <code>
+    <Index> Root
+      <BrowserRouter>
+        <Nav/>
+        <Route to App />
+        <Route to Store />
+        <Route to Cart />
+        <Route to Marketplace />
+        <Route to Sell />
+        <Route to Construction />
+      </BrowserRouter>
+      
+      <Nav>
+          <Link to cart />
+          <Link to App />
+          <Link to Store />
+          <Link to Marketplace />
+          <Link to Store />
+          <Link to Construction -> Contact />
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+          <GoogleSignIn />
+      </Nav>
+      
+      <App>
+        <Home>
+          <Banner banner="home-banner" />
+          <form>
+        </Home>
+      </App>
 
-### Making a Progressive Web App
+      
+      <Store>
+        <Product />
+      </Store>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
+      <Marketplace>
+        <Link to Sell>
+        <list of Products submitted from Sell
+      </Marketplace>
+      
+      <Sell>
+        <form>
+      </Sell>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+    
+      <Construction for Contact>
+          <form>
+          <contact data>
+      </Contact>
+  
+    
+    </Index>
+  
 
-### Deployment
+    <utility>
+      <styles>
+         <Bootstrap>
+            slate.css
+         </Bootstrap>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+        flexborder.css
+        global.css          
+      </styles>
+      
+      <assets>
+        <icons>
+        <images>
+        <logo>
+    
+      </assets>
 
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+    </utility>
+  </code>
